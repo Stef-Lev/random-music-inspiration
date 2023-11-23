@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color:rgb(35, 35, 56);
+    color: aliceblue;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 26px;
+    margin: 20px 0px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(12, 191, 204);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 32px;
+}
+.result {
+    font-size: 44px;
+    color: rgb(12, 191, 204);
+}
