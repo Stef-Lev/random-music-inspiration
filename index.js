@@ -3,7 +3,7 @@ const key = document.querySelector('#key')
 const scale = document.querySelector('#scale')
 const submitBtn = document.querySelector('#submit')
 
-const genreList = ['Drill','Boom Bap','GFunk', 'Trap', 'LoFi', 'AfroBeats', 'Baile Funk', 'Club Banger']
+const genreList = ['Drill','Boom Bap','GFunk', 'Trap', 'LoFi', 'AfroBeats', 'Baile Funk', 'Club Banger', 'Jersey Club']
 const keyList = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
 const scaleList = ['Major','Minor', 'Melodic Minor', 'Harmonic Minor']
 
